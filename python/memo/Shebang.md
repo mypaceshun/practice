@@ -20,5 +20,5 @@ shellスクリプトとかpythonコードの先頭行にある`#!`から始ま�
 結果的に同じ意味だが、2つめのShebangのほうがよりpythonが見つかりやすいお。
 
 ## 参考
-<http://orememo-v2.tumblr.com/post/90344015142/python-shebang>
-<https://moneyforward.com/engineers_blog/2015/05/21/bash-script-tips/>
+* <http://orememo-v2.tumblr.com/post/90344015142/python-shebang>
+* <https://moneyforward.com/engineers_blog/2015/05/21/bash-script-tips/>
