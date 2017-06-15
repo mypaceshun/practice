@@ -35,8 +35,10 @@ print("c =", c)
 print("type(c)", type(c))
 print("\n")
 
+
 print("11  /  2 = ", 11/2)
 print("11  // 2 = ", 11//2)
 print("-11 // 2 = ", -11//2)
 print("11  ** 2 = ", 11**2)
 print("11  %  2 = ", 11 % 2)
+
