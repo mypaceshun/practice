@@ -13,10 +13,12 @@ if [ $# -ne 1 ]; then
   usage_exit
 fi
 
-touch $1.py
-cp ${SHUN_SHELL_HOME}/python/etc/template/template.py $1.py
+filename=$1.py
 
-echo '' >> $1.py
-echo '#===============================' >> $1.sh
-echo '# '$1'.py' >> $1.py
-echo '#===============================' >> $1.sh
+touch $filename
+cp ${SHUN_SHELL_HOME}/etc/template/template.py $filename
+
+echo '' >> $filename
+echo '#===============================' >> $filename
+echo '# '$1'.py' >> $filename
+echo '#===============================' >> $filename
