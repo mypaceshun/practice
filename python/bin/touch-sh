@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #==============
-# touch-py.sh
+# touch-sh.sh
 #==============
 
 function usage_exit() {
@@ -13,10 +13,11 @@ if [ $# -ne 1 ]; then
   usage_exit
 fi
 
-touch $1.py
-cp ${SHUN_SHELL_HOME}/python/etc/template/template.py $1.py
+touch $1.sh
+cp ${SHUN_SHELL_HOME}/python/etc/template/template.sh $1.sh
+chmod +x $1.sh
 
-echo '' >> $1.py
+echo '' >> $1.sh
 echo '#===============================' >> $1.sh
-echo '# '$1'.py' >> $1.py
+echo '# '$1'.sh' >> $1.sh
 echo '#===============================' >> $1.sh

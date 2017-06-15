@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# -*- coding: utf-8 -*-
+
+# auther: shun kawai
+
+#===============================
+# pep8-all.sh
+#===============================
+
+ls | grep *.py | pep8

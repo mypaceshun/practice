@@ -41,4 +41,13 @@ print("11  // 2 = ", 11//2)
 print("-11 // 2 = ", -11//2)
 print("11  ** 2 = ", 11**2)
 print("11  %  2 = ", 11 % 2)
+print("\n")
 
+list = [0,1,'a','string',5j]
+
+print(list)
+print("\n")
+
+a_set = set(list)
+
+print(a_set)
