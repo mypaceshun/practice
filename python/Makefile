@@ -7,7 +7,7 @@ build-env: clean
 	sudo apt install libldap2-dev python3-pip
 	pip3 install --upgrade pip
 	pip3 install setuptools
-	git clone git@github.com:yykamei/python-libldap.git
+	git clone https://github.com/yykamei/python-libldap.git
 	cd python-libldap && $(PYTHON) setup.py install
 
 .PHONY: clean
