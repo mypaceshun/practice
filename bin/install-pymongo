@@ -15,13 +15,16 @@ fi
 
 case `get-os` in
     Ubuntu)
-        smart-install python3
-        smart-install python3-pip
+        ./smart-install.sh python3
+        ./smart-install.sh python3-pip
+        ./smart-install.sh mongodb
         pip3 install pymongo         
     ;;
     CentOS)
-        smart-install python34
-        smart-install python34-pip
+        ./smart-install.sh python34
+        ./smart-install.sh python34-pip
+        ./smart-install.sh mongodb
+        ./smart-install.sh mongodb-server
         pip3 install pymongo
     ;;
     unknown)
