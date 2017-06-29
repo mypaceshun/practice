@@ -4,12 +4,14 @@
 
 # auther: shun kawai
 
-#===============================
-# function.py
-#===============================
+# ===============================
+#  function.py
+# ===============================
 
-def func(a,b):
-  print(a,"+",b,"=",a+b)
 
-for x in range(1,11):
-  func(x, x*x)
+def func(a, b):
+    print(a, "+", b, "=", a+b)
+
+
+for x in range(1, 11):
+    func(x,  x*x)
