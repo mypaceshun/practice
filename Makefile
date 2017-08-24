@@ -4,7 +4,7 @@ VENV = mongoenv
 
 $(VENV):
 	python3 -m venv $(VENV) && . ./$(VENV)/bin/activate && pip install --upgrade pip && pip install -U -r requirements.txt
-	ln -s ./$(VENV)/bin/activate ./activate
+	ln -s -f ./$(VENV)/bin/activate ./activate
 	@echo "********************* Please execute '. activate' ****************************"
 
 .PHONY: rebuild
